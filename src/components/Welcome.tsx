@@ -9,7 +9,7 @@ const WelcomeToMedellin = () => {
       <div className='text-container'>
         <h1>Bienvenidos a Medellín</h1>
         <p>Ciudad de la eterna primavera</p>
-        <strong>Data Analytics Group</strong>
+        <strong>Insight Analytics Group</strong>
       </div>
     </div>
   );
