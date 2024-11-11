@@ -1,0 +1,60 @@
+.tourism-overview-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.tourism-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  width: 400px;
+}
+
+.tourism-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.tourism-text {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.tourism-text h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.tourism-text p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tourism-overview-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tourism-image {
+    width: 300px;
+    margin: 0 auto 2rem auto;
+  }
+
+  .tourism-text {
+    padding-left: 0;
+  }
+}

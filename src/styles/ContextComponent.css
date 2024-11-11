@@ -1,0 +1,29 @@
+.context-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.context-text {
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+.context-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.context-text p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.context-image img {
+  width: 500px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  clip-path: circle(90% at 100% 100%);
+  object-fit: cover;
+  transform: translateX(-40px);
+}

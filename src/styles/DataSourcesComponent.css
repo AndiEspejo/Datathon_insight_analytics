@@ -1,0 +1,35 @@
+.data-sources-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.data-image img {
+  max-width: 600px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  margin-right: 20px;
+}
+
+.data-text {
+  max-width: 500px;
+}
+
+.data-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.data-text p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.data-text a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.data-text a:hover {
+  text-decoration: underline;
+}

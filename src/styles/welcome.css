@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 4rem 8rem;
+}
+
+.image-container {
+  max-width: 50%;
+}
+
+.city-image {
+  width: 100%;
+  border: 1px solid #0078d4;
+}
+
+.text-container {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+strong {
+  font-size: 1em;
+  color: #000;
+}
