@@ -33,22 +33,22 @@ const TourismGrowth = () => {
         transition={{ delay: 0.4, duration: 1 }}
       >
         <motion.img
-          src='/pueblo.jpg'
+          src='./pueblo.jpg'
           alt='Desfile de flores'
           className='image-grid-item'
         />
         <motion.img
-          src='/silleteros.jpg'
+          src='./silleteros.jpg'
           alt='Sendero en la naturaleza'
           className='image-grid-item'
         />
         <motion.img
-          src='/botero.jpg'
+          src='./botero.jpg'
           alt='Pueblo antioqueño'
           className='image-grid-item'
         />
         <motion.img
-          src='/valle.jpg'
+          src='./valle.jpg'
           alt='Obra de Botero'
           className='image-grid-item'
         />

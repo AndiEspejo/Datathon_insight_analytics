@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div
       style={{
-        backgroundImage: 'url("/medellin.jpg")',
+        backgroundImage: 'url("./medellin.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
