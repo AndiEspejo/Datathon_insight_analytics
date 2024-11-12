@@ -1,0 +1,67 @@
+.license-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.license-content {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.license-content h2 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.copyright {
+  font-weight: 500;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.permission-text {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.condition-text {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+
+.disclaimer-text {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: justify;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .license-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .license-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .disclaimer-text {
+    font-size: 0.8rem;
+  }
+}

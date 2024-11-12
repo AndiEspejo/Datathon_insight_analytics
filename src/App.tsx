@@ -19,7 +19,7 @@ import Timeline from './components/Timeline';
 import TourismOverview from './components/TourismOverview';
 import TurismoGrowth from './components/TurismoGrowth';
 import WelcomeToMedellin from './components/Welcome';
-
+import MITLicense from './components/MITLicense';
 function App() {
   return (
     <div>
@@ -44,6 +44,7 @@ function App() {
       <TableauSecurity />
       <TableauDrugs />
       <TableauAccidents />
+      <MITLicense />
     </div>
   );
 }
