@@ -11,11 +11,13 @@ import TableauPIB from './components/TableauPIB';
 import AttractivesEmbed from './components/AttractivesEmbed';
 import TourismOverview from './components/TourismOverview';
 import IndicadoresEconomicos from './components/IndicadoresEconomicos';
-import SecurityIndicators from './components/SecurityIndicators';
 import EnvironmentalIndicators from './components/EnvironmentalIndicators';
 import TableauWifi from './components/TableauWifi';
 import TableauSocial from './components/TableauSocial';
-
+import SocialIndicators from './components/SocialIndicators';
+import SecurityIndicators from './components/SecurityIndicators';
+import TableauSecurity from './components/TableauSecurity';
+import TableauDrugs from './components/TableauDrugs';
 function App() {
   return (
     <div>
@@ -33,8 +35,11 @@ function App() {
       <TableauWifi />
       <IndicadoresEconomicos />
       <TableauPIB />
-      <SecurityIndicators />
+      <SocialIndicators />
       <TableauSocial />
+      <SecurityIndicators />
+      <TableauSecurity />
+      <TableauDrugs />
       <EnvironmentalIndicators />
     </div>
   );
