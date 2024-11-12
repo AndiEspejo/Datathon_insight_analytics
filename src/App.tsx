@@ -1,7 +1,6 @@
 import AttractivesEmbed from './components/AttractivesEmbed';
 import Context from './components/Context';
 import DataSourcesComponent from './components/DataSources';
-import EnvironmentalIndicators from './components/EnvironmentalIndicators';
 import GeniallyEmbed from './components/GeniallyEmbed';
 import Header from './components/Header';
 import IndicadoresEconomicos from './components/IndicadoresEconomicos';
@@ -45,7 +44,6 @@ function App() {
       <TableauSecurity />
       <TableauDrugs />
       <TableauAccidents />
-      <EnvironmentalIndicators />
     </div>
   );
 }
