@@ -15,7 +15,7 @@ const DataSourcesComponent = () => {
           Todo el proceso de análisis y procesamiento de los datos está
           disponible públicamente en nuestro repositorio de GitHub:
           <a
-            href='https://github.com/Insight-Analytics-Group-Datathon'
+            href='https://github.com/jiurgi/Insight-Analytics-Group-Datathon'
             target='_blank'
             rel='noopener noreferrer'
           >
