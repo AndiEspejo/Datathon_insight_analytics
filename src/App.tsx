@@ -1,23 +1,26 @@
-import TableauViz from './components/TableauViz';
+import AttractivesEmbed from './components/AttractivesEmbed';
+import Context from './components/Context';
+import DataSourcesComponent from './components/DataSources';
+import EnvironmentalIndicators from './components/EnvironmentalIndicators';
 import GeniallyEmbed from './components/GeniallyEmbed';
 import Header from './components/Header';
-import WelcomeToMedellin from './components/Welcome';
-import TurismoGrowth from './components/TurismoGrowth';
-import OdsComponent from './components/OdsComponent';
-import DataSourcesComponent from './components/DataSources';
-import Context from './components/Context';
-import Timeline from './components/Timeline';
-import TableauPIB from './components/TableauPIB';
-import AttractivesEmbed from './components/AttractivesEmbed';
-import TourismOverview from './components/TourismOverview';
 import IndicadoresEconomicos from './components/IndicadoresEconomicos';
-import EnvironmentalIndicators from './components/EnvironmentalIndicators';
-import TableauWifi from './components/TableauWifi';
-import TableauSocial from './components/TableauSocial';
-import SocialIndicators from './components/SocialIndicators';
+import OdsComponent from './components/OdsComponent';
 import SecurityIndicators from './components/SecurityIndicators';
-import TableauSecurity from './components/TableauSecurity';
+import SocialIndicators from './components/SocialIndicators';
+import TableauAccidents from './components/TableauAccidents';
 import TableauDrugs from './components/TableauDrugs';
+import TableauPIB from './components/TableauPIB';
+import TableauSecurity from './components/TableauSecurity';
+import TableauSocial from './components/TableauSocial';
+import TableauTourism from './components/TableauTourism';
+import TableauViz from './components/TableauViz';
+import TableauWifi from './components/TableauWifi';
+import Timeline from './components/Timeline';
+import TourismOverview from './components/TourismOverview';
+import TurismoGrowth from './components/TurismoGrowth';
+import WelcomeToMedellin from './components/Welcome';
+
 function App() {
   return (
     <div>
@@ -33,6 +36,7 @@ function App() {
       <TourismOverview />
       <TableauViz />
       <TableauWifi />
+      <TableauTourism />
       <IndicadoresEconomicos />
       <TableauPIB />
       <SocialIndicators />
@@ -40,6 +44,7 @@ function App() {
       <SecurityIndicators />
       <TableauSecurity />
       <TableauDrugs />
+      <TableauAccidents />
       <EnvironmentalIndicators />
     </div>
   );

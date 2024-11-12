@@ -8,9 +8,9 @@ const OdsComponent = () => {
         <p>
           Este proyecto tiene como objetivo evaluar los impactos del turismo en
           Medellín mediante el análisis de datos, con el fin de desarrollar una
-          herramienta que permita medir sus efectos ambientales, sociales y
-          económicos. Todo esto en línea con los Objetivos de Desarrollo
-          Sostenible (ODS), especialmente:
+          herramienta que permita medir sus efectos sociales y económicos. Todo
+          esto en línea con los Objetivos de Desarrollo Sostenible (ODS),
+          especialmente:
         </p>
         <ul>
           <li>
@@ -21,9 +21,6 @@ const OdsComponent = () => {
           </li>
           <li>
             <strong>ODS 12</strong> (Producción y Consumo Responsables)
-          </li>
-          <li>
-            <strong>ODS 13</strong> (Acción por el Clima)
           </li>
         </ul>
       </div>
